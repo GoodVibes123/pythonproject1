@@ -11,7 +11,7 @@ def check(health):
         return False
 
 
-if age >= 18:
+if age >= 10:
     print("you are old enough")
     wants_to_play = input("do you wanna play?\n").lower()
     if wants_to_play == "yes":
